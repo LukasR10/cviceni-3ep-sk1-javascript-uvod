@@ -1,3 +1,7 @@
 function kliknulJsem() {
-    console.log("Kliknul jsi");
+    document.getElementById("reakce").innerHTML += "Hurá! ";
+}
+
+function uzStaci() {
+    document.getElementById("reakce").innerHTML = "";
 }
